@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>Top Bar Example</title>
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .top-bar {
+            background-color: #00a6ff; 
+            color: rgb(0, 0, 0); 
+            padding: 20px 5px; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            position: fixed;
+            width: 100%; /
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+            z-index: 1000;
+        }
+
+        .top-bar a {
+            color: rgb(0, 0, 0); 
+            text-decoration: none; 
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .top-bar a:hover {
+            text-decoration: underline; 
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .menu {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">LFC</div>
+        <div class="menu">
+            <a href="#matches">Matches</a>
+            <a href="#competitions">Competitions</a>
+            <a href="#players">Players</a>
+        </div>
+    </div>
+
+</body>
+</html>
