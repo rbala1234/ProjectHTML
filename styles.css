@@ -90,9 +90,9 @@
 }
 
 .main__img--container img {
-    width: 700px;
+    width: 100%;
     max-width: 850px;
-    height: ;
+    height: auto;
 }
 
 .squad_pic img {
